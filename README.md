@@ -5,9 +5,9 @@ Simple SCSS Framework for Wordpress or anything really.
 ###File Structure
 ```
 
-- main.scss
+- [main.scss](https://github.com/ShaneHowell/blarg/blob/master/scss/main.scss)
   + @imports:
-	+/partials/config
+	+ /partials/config
 	+ /partials/normalize
 	+ /partials/fonts
 	+ /partials/header
@@ -28,7 +28,7 @@ Simple SCSS Framework for Wordpress or anything really.
 	+ single.scss
 	+ template.scss
 ```
-*All templates only @include one file, _config*
+*All templates only @include one file, _config.scss*
 
 ###Grid
 
