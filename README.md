@@ -6,27 +6,27 @@ Simple SCSS Framework for Wordpress or anything really.
 ```
 
 - main.scss
-  * @imports:
-   * /partials/config
-   * /partials/normalize
-   * /partials/fonts
-   * /partials/header
-   * /partials/footer
+  + @imports:
+   + /partials/config
+   + /partials/normalize
+   + /partials/fonts
+   + /partials/header
+   + /partials/footer
 - partials
-  * _config.scss
-  * _fonts.scss
-  * _footer.scss
-  * _grid.scss
-  * _header.scss
-  * _mixins.scss
-  * _normalize.scss
-  * _variables.scss
+  + _config.scss
+  + _fonts.scss
+  + _footer.scss
+  + _grid.scss
+  + _header.scss
+  + _mixins.scss
+  + _normalize.scss
+  + _variables.scss
 - templates
-  * archive.scss
-  * front-page.scss
-  * page.scss
-  * single.scss
-  * template.scss
+  + archive.scss
+  + front-page.scss
+  + page.scss
+  + single.scss
+  + template.scss
 
 ```
 
