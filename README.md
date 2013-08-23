@@ -1,11 +1,37 @@
-Blarg
-_____
+##Blarg
 
 Simple SCSS Framework for Wordpress or anything really.
 
+###File Structure
+```
 
-Grid
-======
+- main.scss
+..* @imports:
+...* /partials/config
+...* /partials/normalize
+...* /partials/fonts
+...* /partials/header
+...* /partials/footer
+- partials
+..* _config.scss
+..* _fonts.scss
+..* _footer.scss
+..* _grid.scss
+..* _header.scss
+..* _mixins.scss
+..* _normalize.scss
+..* _variables.scss
+- templates
+..* archive.scss
+..* front-page.scss
+..* page.scss
+..* single.scss
+..* template.scss
+
+```
+
+
+###Grid
 
 Blarg's grid is based off of the [Frameless Grid](https://github.com/jonikorpi/Frameless/blob/master/frameless.scss "Frameless Grid") but, simplified.
 ```
@@ -28,3 +54,13 @@ $column: 60px;
 $gutter: 20px;
 $col-gut: ($gutter - 4px) / $em;
 ```
+
+Then, to use the grid, just head into your file of choice and add:
+```
+.something {
+	width: cols(#);
+}
+
+_# being the number of columns you'd like_
+```
+
