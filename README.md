@@ -5,14 +5,14 @@ Simple SCSS Framework for Wordpress or anything really.
 ###File Structure
 ```
 
-1. main.scss
+- main.scss
   + @imports:
-	+ /partials/config
+	+/partials/config
 	+ /partials/normalize
 	+ /partials/fonts
 	+ /partials/header
 	+ /partials/footer
-2. partials
+- partials
 	+ _config.scss
 	+ _fonts.scss
 	+ _footer.scss
@@ -21,7 +21,7 @@ Simple SCSS Framework for Wordpress or anything really.
 	+ _mixins.scss
 	+ _normalize.scss
 	+ _variables.scss
-3. templates
+- templates
 	+ archive.scss
 	+ front-page.scss
 	+ page.scss
