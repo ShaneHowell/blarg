@@ -28,6 +28,7 @@
 		@return ($cols * ($column + $gutter) - $gutter) / $em - .03em; /* Added -.03 because Firefox and IE break the last column for some reason. */
 	}
 
+	// Offset function, same method as cols.
 	@function offset($offset:1) {
 		@return ($offset * ($column + $gutter)) / $em;
 	}
