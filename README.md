@@ -2,10 +2,10 @@
 
 Simple SCSS Framework for Wordpress or anything really.
 
-###File Structure
+####File Structure
 ```
 
-- [main.scss](https://github.com/ShaneHowell/blarg/blob/master/scss/main.scss)
+- main.scss
   + @imports:
 	+ /partials/config
 	+ /partials/normalize
@@ -28,9 +28,9 @@ Simple SCSS Framework for Wordpress or anything really.
 	+ single.scss
 	+ template.scss
 ```
-*All templates only @include one file, _config.scss*
+*All templates only @import one file, _config.scss*
 
-###Grid
+####Grid
 
 Blarg's grid is based off of the [Frameless Grid](https://github.com/jonikorpi/Frameless/blob/master/frameless.scss "Frameless Grid") but, simplified.
 ```
