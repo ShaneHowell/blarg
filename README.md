@@ -72,6 +72,7 @@ The columns do not automatically size down.
 You. Have. All. The. Control.
 
 *Special Note*
+
 If using inline-block then you must add a margin of $col-gut (in which ever direction you want) to remove the space added by inline-block.
 
 
