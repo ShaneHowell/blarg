@@ -23,13 +23,9 @@
  ** width: cols(#);                        			 **
  ******************************************************/
 
-	// Lets try to keep it to 16cols
+	// Set $column and $gutter values in the _variables.scss file.
 	@function cols($cols:1) {
 		@return ($cols * ($column + $gutter) - $gutter) / $em - .03em; /* Added -.03 because Firefox and IE break the last column for some reason. */
-		//@if cols($cols > 16) {
-			// codekit doesn't display warn
-		//	@warn "Should keep columns under 16."
-		//}
 	}
 
 	@function offset($offset:1) {
