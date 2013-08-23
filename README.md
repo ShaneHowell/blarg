@@ -62,3 +62,22 @@ Then, to use the grid, just head into your file of choice and add:
 ```
 *# being the number of columns you'd like*
 
+#####Important notes on the Grid
+
+This is a very bare bones "grid" that gives you full control.
+Meaning, you can choose to float the columns or inline-block the columns.
+The columns do not automatically group together.
+The columns do not automatically size down.
+
+You. Have. All. The. Control.
+
+*Special Note*
+If using inline-block then you must add a margin of $col-gut (in which ever direction you want) to remove the space added by inline-block.
+
+
+
+
+
+
+
+
