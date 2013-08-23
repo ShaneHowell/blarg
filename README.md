@@ -5,31 +5,30 @@ Simple SCSS Framework for Wordpress or anything really.
 ###File Structure
 ```
 
-- main.scss
+1. main.scss
   + @imports:
-   + /partials/config
-   + /partials/normalize
-   + /partials/fonts
-   + /partials/header
-   + /partials/footer
-- partials
-  + _config.scss
-  + _fonts.scss
-  + _footer.scss
-  + _grid.scss
-  + _header.scss
-  + _mixins.scss
-  + _normalize.scss
-  + _variables.scss
-- templates
-  + archive.scss
-  + front-page.scss
-  + page.scss
-  + single.scss
-  + template.scss
-
+	+ /partials/config
+	+ /partials/normalize
+	+ /partials/fonts
+	+ /partials/header
+	+ /partials/footer
+2. partials
+	+ _config.scss
+	+ _fonts.scss
+	+ _footer.scss
+	+ _grid.scss
+	+ _header.scss
+	+ _mixins.scss
+	+ _normalize.scss
+	+ _variables.scss
+3. templates
+	+ archive.scss
+	+ front-page.scss
+	+ page.scss
+	+ single.scss
+	+ template.scss
 ```
-
+*All templates only @include one file, _config*
 
 ###Grid
 
@@ -60,7 +59,6 @@ Then, to use the grid, just head into your file of choice and add:
 .something {
 	width: cols(#);
 }
-
-_# being the number of columns you'd like_
 ```
+*# being the number of columns you'd like*
 
