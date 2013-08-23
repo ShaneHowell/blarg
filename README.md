@@ -1,11 +1,11 @@
-Blarg
-=====
+#Blarg
+_____
 
 Simple SCSS Framework for Wordpress or anything really.
 
 
-Grid
-____
+##Grid
+======
 Arguably the most important part of any framework.
 
 Blarg's grid is based off of the [Frameless Grid](https://github.com/jonikorpi/Frameless/blob/master/frameless.scss "Frameless Grid") but, simplified.
