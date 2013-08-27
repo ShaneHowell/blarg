@@ -55,14 +55,10 @@ then set to false to use EMs or find a polyfill for REMs.
 Defaults:
 ```
 $base-font-size: 16px;
-$em: $base-font-size / 1em;
-$rem: $base-font-size / 1rem;
-
-$use-rems: true;
-
 $column: 60px;
 $gutter: 20px;
-$col-gut: ($gutter - 4px) / $em;
+
+$use-rems: true;
 ```
 
 Then, to use the grid, just head into your file of choice and add:
