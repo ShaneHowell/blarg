@@ -35,19 +35,29 @@ Simple SCSS Framework for Wordpress or anything really.
 Blarg's grid is based off of the [Frameless Grid](https://github.com/jonikorpi/Frameless/blob/master/frameless.scss "Frameless Grid") but, simplified.
 ```
 @function cols($cols:1) {
-	@return ($cols * ($column + $gutter) - $gutter) / $em - .03em;
-}
 
-@function offset($offset:1) {
-	@return ($offset * ($column + $gutter)) / $em;
+	@if $use-rems == true {
+
+		@return ($cols * ($column + $gutter) - $gutter) / $rem - .03rem;
+
+	} @else if $use-rems == false {
+
+		@return ($cols * ($column + $gutter) - $gutter) / $em - .03em;
+
+	}
+
 }
 ```
-To use the grid, first set your column and gutter variables in the [_variables.scss](https://github.com/ShaneHowell/blarg/blob/master/scss/partials/_variables.scss) file.
+To use the grid, first set your column and gutter variables in the [_variables.scss](https://github.com/ShaneHowell/blarg/blob/master/scss/partials/_variables.scss) file. You have an option to use
+EMs or REMs, set to use REMs by default (no IE8 and below support). If you want IE8 and below support
+then set to false to use EMs or find a polyfill for REMs.
 
 Defaults:
 ```
 $base-font-size: 16px;
 $em: $base-font-size / 1em;
+
+$use-rems: true;
 
 $column: 60px;
 $gutter: 20px;
