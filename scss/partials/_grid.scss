@@ -24,11 +24,35 @@
  ******************************************************/
 
 	// Set $column and $gutter values in the _variables.scss file.
+	// If the $use-rems value is true, then output REM.
+	// Else output EM.
 	@function cols($cols:1) {
-		@return ($cols * ($column + $gutter) - $gutter) / $em - .03em; /* Added -.03 because Firefox and IE break the last column for some reason. */
+
+		@if $use-rems == true {
+
+			@return ($cols * ($column + $gutter) - $gutter) / $rem - .03rem;
+
+		} @else if $use-rems == false {
+
+			@return ($cols * ($column + $gutter) - $gutter) / $em - .03em;
+
+		}
+
 	}
+
+
 
 	// Offset function, same method as cols.
 	@function offset($offset:1) {
-		@return ($offset * ($column + $gutter)) / $em;
+
+		@if $use-rems == true {
+
+			@return ($offset * ($column + $gutter)) / $rem - .03rem;
+
+		} @else if $use-rems == false {
+
+			@return ($offset * ($column + $gutter)) / $em - .03em;
+
+		}
+
 	}

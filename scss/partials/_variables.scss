@@ -16,7 +16,11 @@
  ********************/
 
 	$base-font-size: 16px; 				// Your base font-size in pixels
-	$em: $base-font-size / 1em;			// Shorthand for outputting ems - don't remove or you'll have a bad time
+	$em: $base-font-size / 1em;			// Shorthand for outputting EMs - don't remove or you'll have a bad time
+	$rem: $base-font-size / 1rem;		// Shorthand for outputting REMs - don't remove or you'll have a bad time
+
+	$use-rems: true;					// Don't want to use REMs? Then set me to false. :(
+										// REMs don't support IE8 and below by default, use a polyfill if support is needed or set to false to use EMs.
 
 	$column: 60px;						// The column-width of your grid in pixels
 	$gutter: 20px;						// The gutter-width of your grid in pixels
