@@ -56,6 +56,7 @@ Defaults:
 ```
 $base-font-size: 16px;
 $em: $base-font-size / 1em;
+$rem: $base-font-size / 1rem;
 
 $use-rems: true;
 
