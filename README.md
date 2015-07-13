@@ -49,5 +49,5 @@ You can see their use in the template files.
 #### Mixins
 Blarg comes with a few handy dandy mixins for you to use which can be found at `scss > partials > _mixins.scss`.
 
-*Note: If you're using the included Gulp file then the mixins marked with `<nowiki>*</nowiki><nowiki>*</nowiki>` are not needed as their 
+*Note: If you're using the included Gulp file then the mixins marked with <nowiki>*</nowiki><nowiki>*</nowiki> are not needed as their 
 intended function is automatically done upon compile.*
