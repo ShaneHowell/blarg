@@ -1,0 +1,31 @@
+/**
+ * @file            _bootstrap.scss
+ * @compiles-to     n/a
+ * @imports-to      Layout files
+ * @author          Shane Howell <@shane_howell>
+ * @author          Wes Rice <@wesrice>
+ *
+ * Load the Blarg core by defining a path to the core.
+ *
+ * Include this file at the top of any SCSS template that should utilize Blarg.
+ */
+
+// $base-font-size: 16px;
+// $grid-column: 60px;
+// $grid-gutter: 20px;
+// $grid-default-unit: 'rem';     // 'rem', 'em' or 'px'
+
+// $px: $base-font-size / 1px;
+// $em: $base-font-size / 1em;
+// $rem: $base-font-size / 1rem;
+
+// $mq-smallest:  "screen";                                           // Phone Portrait - Default
+// $mq-small:     "screen and (min-width: 480px)";                    // Phone Landscape
+// $mq-medium:    "screen and (min-width: 720px)";                    // Tablet Portrait
+// $mq-large:     "screen and (min-width: 960px)";                    // Desktop Regular
+// $mq-largest:   "screen and (min-width: 1200px)";                   // Desktop Large
+// $mq-retina:    "screen and (-webkit-min-device-pixel-ratio: 1.5),
+//                 screen and (min--moz-device-pixel-ratio: 1.5),
+//                 screen and (min-device-pixel-ratio: 1.5)";         // Retina Screens
+
+@import "path/to/blarg";

@@ -1,0 +1,30 @@
+@-webkit-keyframes test-keyframes {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+@keyframes test-keyframes {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+.keyframes-animation {
+  -webkit-animation: test-keyframes 3s infinite;
+  animation: test-keyframes 3s infinite; }
+
+.box-sizing {
+  box-sizing: border-box; }
+
+.transform {
+  -webkit-transform: scale(2, 1);
+  -ms-transform: scale(2, 1);
+  transform: scale(2, 1); }
+
+.columns {
+  -webkit-columns: 20px 2;
+  -moz-columns: 20px 2;
+  columns: 20px 2; }

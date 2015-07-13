@@ -1,0 +1,16 @@
+/**
+ * @file            _media-queries.scss
+ * @compiles-to     n/a
+ * @imports-to      _blarg.scss
+ * @author          Shane Howell <@shane_howell>
+ * @author          Wes Rice <@wesrice>
+ */
+
+$mq-smallest:  "screen";                                           // Phone Portrait - Default
+$mq-small:     "screen and (min-width: 480px)";                    // Phone Landscape
+$mq-medium:    "screen and (min-width: 720px)";                    // Tablet Portrait
+$mq-large:     "screen and (min-width: 960px)";                    // Desktop Regular
+$mq-largest:   "screen and (min-width: 1200px)";                   // Desktop Large
+$mq-retina:    "screen and (-webkit-min-device-pixel-ratio: 1.5),
+                screen and (min--moz-device-pixel-ratio: 1.5),
+                screen and (min-device-pixel-ratio: 1.5)";         // Retina Screens

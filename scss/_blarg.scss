@@ -1,0 +1,27 @@
+/**
+ * Blarg Front-End SCSS Framework
+ *
+ * @author  Airtype <@airtype>
+ * @author  Shane Howell <@shane_howell>
+ * @author  Wes Rice <@wesrice>
+ * @author  Matt Helm <@mtthlm>
+ */
+
+
+/**
+ * @file            _blarg.scss
+ * @compiles-to     n/a
+ * @imports-to      Any file that utilizes blarg
+ * @author          Shane Howell <@shane_howell>
+ * @author          Wes Rice <@wesrice>
+ */
+
+
+
+/**************
+ ** Partials **
+ **************/
+
+    @import "partials/mixins";
+    @import "partials/media-queries";
+    @import "partials/grid";

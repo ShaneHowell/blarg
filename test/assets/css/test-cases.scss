@@ -1,0 +1,21 @@
+
+@keyframes test-keyframes {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.keyframes-animation {
+    animation: test-keyframes 3s infinite;
+}
+
+.box-sizing {
+    box-sizing: border-box;
+}
+
+.transform {
+    transform: scale(2, 1);
+}
+
+.columns {
+    columns: 20px 2;
+}

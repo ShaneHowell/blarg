@@ -1,18 +1,12 @@
-/*******************************************************
-
-    Blarg Front-End SCSS Framework by @Shane_Howell
-
-  -------------------
-
-    normalize.css v2.1.2 | MIT License | git.io/normalize
-
-  -------------------
-
-    Import - Does not directly compile.
-    @import > ../main.scss
-
-********************************************************/
-
+/**
+ * @file            _normalize.scss
+ * @compiles-to     n/a
+ * @imports-to      Layout files
+ * @author          Shane Howell <@shane_howell>
+ * @author          Wes Rice <@wesrice>
+ *
+ * normalize.css v2.1.2 | MIT License | git.io/normalize 
+ */
 
 /* ==========================================================================
    HTML5 display definitions
@@ -532,4 +526,3 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: rgba(255,0,0, 0.62);
 }
-
