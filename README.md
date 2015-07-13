@@ -12,7 +12,7 @@ A simple SCSS framework.
 #### Gulp
 1. Example GulpJS file is included.
 2. Add paths within gulpfile.js.
-3. Add your proxy to the gulpfile.js. ex: `local.airtype.com`
+3. Add your proxy to the gulpfile.js. ex: `local.mysite.com`
 4. Run `gulp`.
 
 ###### Available Gulp commands
